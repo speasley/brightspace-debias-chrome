@@ -12,10 +12,9 @@
     "content_scripts": [
         {
             "js": ["scripts/content.js"],
-            "matches": ["<all_urls>"]
+            "matches": ["http://*/*, https://*/*"]
         }
     ],
     "author": "Stephen Peasley",  
-    "homepage_url": "https://github.com/speasley/brightspace-debias-chrome",
-    "permissions": ["activeTab"]
+    "homepage_url": "https://github.com/speasley/brightspace-debias-chrome"
   }
