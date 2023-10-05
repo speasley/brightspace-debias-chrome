@@ -36,6 +36,10 @@ In the context of Brightspace, there are certain aspects of the user interface w
 
 5. Select the folder where you cloned the extension repository and click "Open."
 
+### Licence
+
+This project is licensed under the [MIT Licence](http://opensource.org/licenses/MIT).
+
 ### Disclaimer
 
 This extension is not affiliated with or endorsed by Brightspace. It is an independent project created for the purpose of reducing potential evaluation bias.
