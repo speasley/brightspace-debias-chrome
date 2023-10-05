@@ -16,5 +16,6 @@
         }
     ],
     "author": "Stephen Peasley",  
-    "homepage_url": "https://github.com/speasley/brightspace-debias-chrome"
+    "homepage_url": "https://github.com/speasley/brightspace-debias-chrome",
+    "permissions": ["activeTab"]
   }
