@@ -14,7 +14,7 @@ In the context of Brightspace, there are certain aspects of the user interface w
 
 ### From the Chrome Web Store (Recommended)
 
-1. Visit the [Brightspace Debias extension page](https://chrome.google.com/webstore/detail/brightspace-debias/your-extension-id).
+1. Visit the [Brightspace Debias extension page](https://chrome.google.com/webstore/detail/brightspace-debias/nmhkibdmnglnifheagdgjlllajodnclh) (pending review).
 
 2. Click the "Add to Chrome" button.
 
