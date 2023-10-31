@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Brightspace Debias",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Obfuscate learner details from the Brightspace UI to reduce evaluation bias.",
     "icons": {
         "16": "images/icon-16.png",
@@ -14,6 +14,9 @@
             "js": ["scripts/content.js"],
             "matches": ["http://*/*, https://*/*"]
         }
+    ],
+    "permissions": [
+        "scripting"
     ],
     "author": "Stephen Peasley",  
     "homepage_url": "https://github.com/speasley/brightspace-debias-chrome"
