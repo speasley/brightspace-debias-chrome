@@ -40,6 +40,10 @@ In the context of Brightspace, there are certain aspects of the user interface w
 
 This project is licensed under the [MIT Licence](http://opensource.org/licenses/MIT).
 
+### Privacy Policy
+
+While this extension collects no data, you can still read its applicable [privacy policy](https://github.com/speasley/chrome-web-store-privacy-policy).
+
 ### Disclaimer
 
 Neither this extension nor its author are affiliated with or endorsed by D2L. This is an independent project created for the purpose of reducing potential evaluation bias.
