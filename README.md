@@ -42,7 +42,7 @@ This project is licensed under the [MIT Licence](http://opensource.org/licenses/
 
 ### Privacy Policy
 
-While this extension collects no data, you can still read its applicable [privacy policy](https://github.com/speasley/chrome-web-store-privacy-policy).
+While this extension collects no data, you can still read its applicable [privacy policy](./PRIVACY.md).
 
 ### Disclaimer
 
