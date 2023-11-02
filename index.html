@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brightspace Debias</title>
+    <link href="./styles/content.css" rel="stylesheet" />
+</head>
+<body class="brightspace-debias-popup">
+    <header>
+        <h1>Brightspace Debias</h1>
+        <h2>Obfuscate learner details from the Brightspace UI to reduce evaluation bias.</h2>
+    </header>
+    <main>
+        <section>
+            <h3>Options</h3>
+            <form id="brightspace-debias-options-form">
+                <h4>Obfuscation style:</h4>
+                <input type="radio" id="blur" value="blur" name="style" checked />
+                <label for="blur">Blur (default)</label><br />
+                <input type="radio" id="collapse" value="collapse" name="style" />
+                <label for="collapse">Collapse</label><br />
+                <input type="radio" id="invisible" value="invisible" name="style" />
+                <label for="invisible">Invisible</label>
+            </form>
+
+        </section>
+    </main>
+    <script src="./scripts/content.js"></script>
+</body>
+</html>
