@@ -15,9 +15,7 @@
             "matches": ["http://*/*", "https://*/*"]
         }
     ],
-    "permissions": [
-        "activeTab"
-    ],
+    "permissions": ["scripting"],
     "author": "Stephen Peasley",  
     "homepage_url": "https://github.com/speasley/brightspace-debias-chrome"
   }
