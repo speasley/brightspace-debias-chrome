@@ -25,11 +25,13 @@ setTimeout(() => {
         const submissionsListShadowHost = submissionsListView.querySelector("d2l-list");
         const submissionsListItemShadowHost = submissionsListShadowHost.querySelector("d2l-consistent-evaluation-assignments-submission-item");
         const submissionsListItemShadowRoot = submissionsListItemShadowHost.shadowRoot;
-        const innerListShadowHost = submissionsListItemShadowRoot.querySelector("d2l-list");
-        const innerListItem = innerListShadowHost.querySelector("d2l-list-item");
-        const innerListContainer = innerListItem.querySelector("div.d2l-submission-attachment-list-item-flexbox");
-        const innerListContent = innerListContainer.querySelector(".d2l-submission-attachment-list-item-content");
-        fileName = innerListContent.querySelector("a");
+        const innerListShadowHost = submissionsListItemShadowRoot.querySelector("d2l-list"); // outer container
+        if (innerListShadowHost) { // file-submitted assessment
+            const innerListItem = innerListShadowHost.querySelector("d2l-list-item");
+            const innerListContainer = innerListItem.querySelector("div.d2l-submission-attachment-list-item-flexbox");
+            const innerListContent = innerListContainer.querySelector(".d2l-submission-attachment-list-item-content");
+            fileName = innerListContent.querySelector("a");
+        }
     }
 
     if (contextBar) {
