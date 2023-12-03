@@ -2,12 +2,12 @@ setTimeout(() => {
 
     // find the contextBar that contains the learner details
     const isD2l = document.querySelector("body.d2l-body");
-    let contextBar;
-    let fileName;
+    let contextBar, fileName = null;
 
     // put on your DOM boots, we're going on a hike
     if (isD2l) {
         const outerShadowHost = document.querySelector("body.d2l-body").querySelector("d2l-consistent-evaluation");
+        if(outerShadowHost) {
         const outerShadowRoot = outerShadowHost.shadowRoot;
         const middleShadowHost = outerShadowRoot.querySelector("d2l-consistent-evaluation-page");
         const middleShadowRoot = middleShadowHost.shadowRoot;
