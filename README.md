@@ -36,14 +36,20 @@ In the context of Brightspace, there are certain aspects of the user interface w
 
 5. Select the folder where you cloned the extension repository and click "Open."
 
-### Licence
+## Usage
+
+Once the DOM renders, the learner's name and profile photo are blurred. The title attribute is preserved, so if you do need to see the learner's name, simply hover your mouse over the blurred text and the learner's name will show in the tooltip.
+
+It is common for learners to use their name as part of their submission's file name. If this is a concern, notify students that their submitted files must not include their name.
+
+## Licence
 
 This project is licensed under the [MIT Licence](http://opensource.org/licenses/MIT).
 
-### Privacy Policy
+## Privacy Policy
 
 While this extension collects no data, you can still read its applicable [privacy policy](./PRIVACY.md).
 
-### Disclaimer
+## Disclaimer
 
 Neither this extension nor its author are affiliated with or endorsed by D2L. This is an independent project created for the purpose of reducing potential evaluation bias.
