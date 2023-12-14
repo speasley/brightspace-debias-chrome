@@ -38,7 +38,7 @@ In the context of Brightspace, there are certain aspects of the user interface w
 
 ## Usage
 
-Once the DOM renders, the learner's name and profile photo are blurred. The title attribute is preserved, so if you do need to see the learner's name, simply hover your mouse over the blurred text and the learner's name will show in the tooltip.
+Once the DOM renders, the learner's name and profile photo are blurred. The title attribute is preserved, so if you do need to see the learner's name, simply hover your cursor over the blurred text and the learner's name will show in the tooltip.
 
 It is common for learners to use their name as part of their submission's file name. If this is a concern, notify students that their submitted files must not include their name.
 
