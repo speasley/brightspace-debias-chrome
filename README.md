@@ -10,7 +10,7 @@ Assessing student work can be influenced by unconscious bias. To address this is
 
 In the context of Brightspace, there are certain aspects of the user interface where the student's name remains consistently visible throughout the grading process. While it is not possible to achieve 100% obfuscation (the student can always include their name in the content of their submissions), there is opportunity to obscure some of the persistent personal information.
 
-While Brightspace includes an Anonymous Marking feature, it is irreversable once a submission has been received. This plugin provides a non-destructive, reversable anonymizaton that can be toggled at any time.
+While Brightspace includes an Anonymous Marking feature, it is irreversible once a submission has been received. This plugin provides a non-destructive, reversible anonymizaton that can be toggled at any time.
 
 ## Installation
 
