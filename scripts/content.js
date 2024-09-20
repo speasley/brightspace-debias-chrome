@@ -8,10 +8,23 @@ setTimeout(() => {
             const outerShadowRoot = outerShadowHost.shadowRoot;
             const contextBar = findElementInShadowDom(outerShadowRoot, "d2l-user-context-container", "class");
 
-            if (contextBar) {
-                contextBar.setAttribute("aria-hidden", "true");
+            if (contextBar) { 
+                // replace name in context bar
                 contextBar.classList.add("brightspace-debias");
-                contextBar.style.setProperty("filter", "blur(5px) grayscale(100%)");
+                const contextName = contextBar.querySelector(".d2l-consistent-evaluation-lcb-user-name");
+                contextName.innerHTML = "[Anonymous]";
+                contextName.setAttribute("title", "[Anonymous]");
+                const profileCard = contextBar.querySelector("d2l-user-profile-card");
+                if (profileCard) {
+                    // disable profile card
+                    const profileCardShadowRoot = profileCard.shadowRoot;
+                    const profileDropdown = profileCardShadowRoot.querySelector("d2l-dropdown");
+                    const profileDropdownContent = profileDropdown.querySelector("d2l-dropdown-content");
+                    profileDropdownContent.remove();
+                    // replace user image
+                    const userIcon = findElementInShadowDom(contextBar, "d2l-user-profile-card-dropdown", "class");
+                    userIcon.style.setProperty("filter", "blur(3px) contrast(0.1) brightness(1.5)");
+                }
             }
         }
     }

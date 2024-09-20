@@ -6,9 +6,11 @@
 
 ## Background
 
-Assessing student work can be influenced by personal bias, whether it's unintentional or deliberate. To address this issue, certain educational institutions have implemented strategies (as outlined in [this source](https://resources.depaul.edu/teaching-commons/teaching-guides/feedback-grading/Pages/assessment-and-bias.aspx)).
+Assessing student work can be influenced by unconscious bias. To address this issue, certain educational institutions have implemented strategies (as outlined in [this source](https://resources.depaul.edu/teaching-commons/teaching-guides/feedback-grading/Pages/assessment-and-bias.aspx)).
 
 In the context of Brightspace, there are certain aspects of the user interface where the student's name remains consistently visible throughout the grading process. While it is not possible to achieve 100% obfuscation (the student can always include their name in the content of their submissions), there is opportunity to obscure some of the persistent personal information.
+
+While Brightspace includes an Anonymous Marking feature, it is irreversable once a submission has been received. This plugin provides a non-destructive, reversable anonymizaton that can be toggled at any time.
 
 ## Installation
 
@@ -38,7 +40,7 @@ In the context of Brightspace, there are certain aspects of the user interface w
 
 ## Usage
 
-Once the DOM renders, the learner's name and profile photo are blurred. The title attribute is preserved, so if you do need to see the learner's name, simply hover your cursor over the blurred text and the learner's name will show in the tooltip.
+Once the DOM renders, the learner's name and profile photo are altered.
 
 It is common for learners to use their name as part of their submission's file name. If this is a concern, notify students that their submitted files must not include their name.
 
